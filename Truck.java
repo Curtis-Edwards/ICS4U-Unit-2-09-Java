@@ -67,7 +67,7 @@ public class Truck extends Vehicle {
      * @param breakTime The time the brakes were applied.
      * @param airPressure The air pressure to apply.
      */
-    public void break(int breakPower, int breakTime, int airPressure) {
+    public void brake(int breakPower, int breakTime, int airPressure) {
         this.speed = this.speed - (breakPower * breakTime) - (airPressure * breakTime);
 
     }
