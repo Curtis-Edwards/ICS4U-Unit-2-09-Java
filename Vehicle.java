@@ -95,7 +95,7 @@ public class Vehicle {
         System.out.println(" -> Speed: " + this.speed);
         System.out.println(" -> Max Speed: " + this.maxSpeed);
         System.out.println(" -> Color: " + this.color);
-        System.out.println(" -> Number of tires: " + this.numberOfTires);
+        //System.out.println(" -> Number of tires: " + this.numberOfTires);
     }
 
     /**
