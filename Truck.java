@@ -56,7 +56,6 @@ public class Truck extends Vehicle {
      */
     public void status() {
         super.status();
-        System.out.println(" -> Number of tires: 6");
         System.out.println(" -> License Plate: " + this.licensePlateNumber);
     }
 
