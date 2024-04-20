@@ -64,7 +64,7 @@ final class Main {
         System.out.println(newSpeedSting + bigTruck.getSpeed());
 
         System.out.println("\nBreaking of power 10, for 2 sec, Air pressure of 2:");
-        bigTruck.break(tenNumber, 2, 2);
+        bigTruck.brake(tenNumber, 2, 2);
         System.out.println(newSpeedSting + bigTruck.getSpeed());
 
         System.out.println("\nDone.");
